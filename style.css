@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    margin-top: 15px;
+    font-family: arial, sans-serif;
+}
+
+header .logo img {
+    width: 25vw;
+    margin-left: 35vw;
+    margin-bottom: 10px;
+
+}
+
+header .pizzaok {
+    position: relative;
+    background-image: url("img/pizzaok.jpg");
+    width: 100vw;
+    height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header .pizzaok p {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    padding: 10px;
+    background-color: rgba(132, 50, 168, .5);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header aside {
+    margin-top: 30px;
+}
+
+header aside .contact1 {
+    float: left;
+    margin-right: 20px;
+    margin-left: 10vw;
+    line-height: 150%;
+}
+
+aside .contact1 p {
+    font-size: 18px;
+}
+
+aside .contact1 .street,
+aside .contact1 .town {
+    font-size: 14px;
+}
+
+aside div.contact2 p {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+aside .contact2 button {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: darkorange;
+    margin-left: 20px;
+    border: 1px solid rgb(132, 50, 168);
+    border-radius: 15px;
+    color: white;
+}
+
+@media (min-width:360px) {
+    header .logo img {
+        width: 30vw;
+    }
+
+    header .pizzaok p {
+        top: 55px;
+        padding: 15px;
+        font-size: 32px;
+        letter-spacing: 6px;
+    }
+
+    aside .contact1 p {
+        font-size: 20px;
+    }
+
+    aside .contact1 .street,
+    aside .contact1 .town {
+        font-size: 16px;
+    }
+
+    aside div.contact2 p {
+        font-size: 20px;
+    }
+
+    aside .contact2 button {
+        font-size: 20px;
+        padding: 15px 20px;
+        margin-left: 12px;
+    }
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:411px) {
+    aside .contact1 p {
+        font-size: 24px;
+        line-height: 170%;
+    }
+
+    aside .contact1 .street,
+    aside .contact1 .town {
+        font-size: 20px;
+    }
+
+    aside div.contact2 p {
+        font-size: 24px;
+    }
+
+        {
+        font-size: 24px;
+        padding: 20px 25px;
+        margin-top: 10px;
+    }
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+        font-size: 24px;
+    }
+
+    aside .contact2 button {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 20px 25px;
+    }
+}
+
+@media (min-width:768px) {
+    header .pizzaok p {
+        top: 75px;
+        padding: 35px;
+        font-size: 46px;
+        letter-spacing: 16px;
+    }
+
+    header aside .contact1 {
+        margin-left: 15vw;
+    }
+
+    aside .contact1 p {
+        font-size: 38px;
+    }
+
+    aside .contact1 .street,
+    aside .contact1 .town {
+        font-size: 26px;
+    }
+
+    .fa,
+    .far,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+        font-size: 40px;
+    }
+
+    aside div.contact2 p {
+        font-size: 34px;
+    }
+
+    aside .contact2 button {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-left: 50px;
+        padding: 30px 35px;
+    }
+}
+
+
+/*main*/
+main {
+    height: 150vh;
+}
