@@ -14,7 +14,7 @@ section .wrap {
     position: relative;
 }
 
-section .wrap > * {
+section .wrap>* {
     position: absolute;
 }
 
@@ -423,7 +423,7 @@ main .undersize {
     margin: 5px 0;
 }
 
-main div.size .cm > div {
+main div.size .cm>div {
     float: left;
     width: 18%;
     background-color: rgba(143, 91, 165, .8);
@@ -434,11 +434,11 @@ main div.size .cm > div {
     border-radius: 50%;
 }
 
-main div.size .cm > div.s1 {
+main div.size .cm>div.s1 {
     background-color: rgba(154, 133, 163, 0.8);
 }
 
-main div.size .cm > div.s3 {
+main div.size .cm>div.s3 {
     background-color: rgba(84, 48, 100, 0.8);
 }
 
@@ -474,7 +474,7 @@ main div.price:nth-of-type(3) {
     background-color: rgba(84, 48, 100, 0.8);
 }
 
-section.salads div.other > div p {
+section.salads div.other>div p {
     float: left;
     text-align: center;
     padding: 10px 20px 5px 20px;
@@ -500,4 +500,28 @@ div.desc {
     float: right;
     width: 60%;
     margin-right: 10px;
+}
+
+footer {
+    background-color: rgba(132, 50, 168, .5);
+}
+
+footer .container {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer button {
+    width: 200px;
+    height: 60px;
+    background-image: url("img/fb_string.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 50px;
 }
