@@ -14,7 +14,7 @@ section .wrap {
     position: relative;
 }
 
-section .wrap>* {
+section .wrap > * {
     position: absolute;
 }
 
@@ -79,6 +79,11 @@ aside .contact1 p {
 aside .contact1 .street,
 aside .contact1 .town {
     font-size: 14px;
+}
+
+i.fas.fa-phone {
+    color: black;
+    font-size: 20px;
 }
 
 aside .contact2 {
@@ -147,6 +152,7 @@ aside .contact2 button:hover {
         font-size: 22px;
         margin-top: 10px;
     }
+
 }
 
 @media (orientation:portrait) and (min-width:411px) {
@@ -417,7 +423,7 @@ main .undersize {
     margin: 5px 0;
 }
 
-main div.size .cm>div {
+main div.size .cm > div {
     float: left;
     width: 18%;
     background-color: rgba(143, 91, 165, .8);
@@ -428,11 +434,11 @@ main div.size .cm>div {
     border-radius: 50%;
 }
 
-main div.size .cm>div.s1 {
+main div.size .cm > div.s1 {
     background-color: rgba(154, 133, 163, 0.8);
 }
 
-main div.size .cm>div.s3 {
+main div.size .cm > div.s3 {
     background-color: rgba(84, 48, 100, 0.8);
 }
 
@@ -468,17 +474,30 @@ main div.price:nth-of-type(3) {
     background-color: rgba(84, 48, 100, 0.8);
 }
 
-main section section.salads {
-    position: relative;
+section.salads div.other > div p {
+    float: left;
+    text-align: center;
+    padding: 10px 20px 5px 20px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
-main section.salads div.h3 {
-    position: absolute;
-
+section.salads div.price {
+    float: right;
+    margin-right: 5px;
 }
 
-main section.salads div.price {
-    position: absolute;
-    background-color: rgba(143, 91, 165, .8);
-    left: 65%;
+section.salads h4 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+div.garlic.clearfix {
+    margin: 10px 5px 5px 0;
+}
+
+div.desc {
+    float: right;
+    width: 60%;
+    margin-right: 10px;
 }
