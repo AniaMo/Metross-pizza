@@ -128,8 +128,7 @@ main {
 }
 
 main div.size h1 {
-    width: 100vw;
-    margin-left: -3vw;
+    margin-top: 1vh;
     text-transform: uppercase;
     padding: 4%;
     color: white;
@@ -529,6 +528,11 @@ footer button {
 
     section.salads h4 {
         margin-left: 170px;
+    }
+
+
+    div.container {
+        margin-top: 30px;
     }
 
     div.desc {
