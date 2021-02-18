@@ -373,6 +373,19 @@ footer button {
     footer .container {
         padding: 25px 0;
     }
+
+    div.desc {
+        font-weight: bold;
+        padding-top: 8px;
+    }
+}
+
+@media (orientation:portrait) and (min-width:540px) {
+    footer button {
+        margin-left: 170px;
+        margin-top: 0px;
+    }
+
 }
 
 @media (orientation:portrait) and (min-width:768px) {
@@ -454,6 +467,82 @@ footer button {
         margin-top: 42px;
         line-height: 10vw;
         font-size: 22px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section.pizza:nth-of-type(1),
+    section.pizza:nth-of-type(2) {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section.pizza:nth-of-type(1) h3,
+    section.pizza:nth-of-type(2) h3 {
+        font-size: 24px;
+    }
+
+    section.pizza:nth-of-type(1) p,
+    section.pizza:nth-of-type(2) p {
+        font-size: 20px;
+    }
+
+    section.pizza:nth-of-type(3),
+    section.pizza:nth-of-type(4),
+    section.pizza:nth-of-type(5),
+    section.pizza:nth-of-type(6) {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section.pizza:nth-of-type(3) h3,
+    section.pizza:nth-of-type(4) h3,
+    section.pizza:nth-of-type(5) h3,
+    section.pizza:nth-of-type(6) h3 {
+        font-size: 24px;
+    }
+
+    section.pizza:nth-of-type(3) p,
+    section.pizza:nth-of-type(4) p,
+    section.pizza:nth-of-type(5) p,
+    section.pizza:nth-of-type(6) p {
+        font-size: 20px;
+    }
+
+    section.salads div.other>div p {
+        padding: 10px 20px 5px 80px;
+    }
+
+    section.salads div.price {
+        margin-right: 55px;
+    }
+
+    section.salads div.other>div p {
+        padding: 10px 20px 5px 80px;
+    }
+
+    section.salads div.price {
+        margin-right: 35px;
+    }
+
+    section.salads h4 {
+        margin-left: 170px;
+    }
+
+    div.desc {
+        font-weight: bold;
+        text-align: left;
+        padding-top: 15px;
+    }
+
+    div.garlic .price {
+        margin-left: 50px;
+    }
+
+    footer button {
+        margin-left: 290px;
     }
 
     @media (orientation:landscape) and (min-width:880px) {
