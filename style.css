@@ -245,6 +245,7 @@ footer .container {
     font-family: 'roboto', sans-serif;
     text-align: center;
     padding: 10px 0;
+    color: white;
 }
 
 footer button {
@@ -732,7 +733,7 @@ main div.size .cm {
         }
         i.fas.fa-phone {
             color: black;
-            font-size: 36px;
+            font-size: 26px;
         }
         
         main div.size h1 {
@@ -765,7 +766,18 @@ main div.size .cm {
 background-image: url("img/rukoladrop.png");
 background-repeat: repeat;
         }
+        div.contact1 {
+            border: 2px solid black;
+            background-color: rgba(132, 50, 168, 1);
+            color: white;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+        i.fas.fa-phone {
+            color: white;
+        }
         aside .contact2 button {
             margin-left: 80px;
         }
+        
     }
