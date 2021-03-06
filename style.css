@@ -236,7 +236,7 @@ div.desc {
 footer {
     background-color: rgba(132, 50, 168, 1);
     max-width: 1240px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 footer .container {
@@ -730,6 +730,11 @@ main div.size .cm {
 
         header {max-width: 1240px;
         }
+        i.fas.fa-phone {
+            color: black;
+            font-size: 36px;
+        }
+        
         main div.size h1 {
             padding: 20px 10px;
             margin-bottom: 20px;
@@ -757,8 +762,10 @@ main div.size .cm {
     }
     @media (orientation:landscape) and (min-width:1280px) {
         body {
-background-image: url("img/rukolabigdrop.png");
+background-image: url("img/rukoladrop.png");
 background-repeat: repeat;
         }
-        
+        aside .contact2 button {
+            margin-left: 80px;
+        }
     }
